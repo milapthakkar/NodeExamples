@@ -1,0 +1,26 @@
+{
+  "name": "demo-master-app",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Pranav Patel",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && cd ../node-app/src && node app.js",
+    "build-prod": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "2.5.19",
+    "bootstrap-vue": "2.0.0-rc.11",
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "3.0.5",
+    "vue-template-compiler": "2.5.19",
+    "vue-custom-element": "^3.2.5"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

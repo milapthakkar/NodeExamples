@@ -1,0 +1,18 @@
+{
+  "name": "demo-master-app",
+  "version": "0.0.1",
+  "author": "T-Mobile USA Inc",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "compression": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "engines": {
+    "node": "^8.2.11",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {}
+}
